@@ -69,10 +69,10 @@ const YoussefPortfolio = () => {
               </p>
               <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                 <button 
-                  onClick={() => scrollToSection('contact')}
+                  onClick={() => scrollToSection('skills')}
                   className="px-6 py-3 bg-egyptian-blue text-white rounded-lg hover:bg-egyptian-blue/90 transition-colors"
                 >
-                  Get In Touch
+                  My Skills
                 </button>
                 <button 
                   onClick={() => scrollToSection('goals')}
@@ -241,7 +241,7 @@ const YoussefPortfolio = () => {
                 <div className="w-12 h-12 bg-egyptian-blue/10 rounded-full flex items-center justify-center mr-4">
                   <span className="text-xl">🚗</span>
                 </div>
-                <h3 className="text-xl font-semibold text-egyptian-blue">Exotic Automotive Engineering</h3>
+                <h3 className="text-xl font-semibold text-egyptian-blue">Exotic Cars</h3>
               </div>
               <p className="text-gray-700">
                 Fascinated by the mechanical sophistication and design excellence of high-performance 
